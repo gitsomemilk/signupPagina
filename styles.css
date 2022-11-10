@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Mukta', Arial, sans-serif;
+    background-color: #C0E6DE;
+}
+
+#inlogVeld {
+    padding: 40px;
+    background-color: #1F2041;
+    color: #EF476F;
+    border-radius: 4px;
+    box-shadow: 0 50px 32px 0 rgba(0,0,0,0.2), 0 20px 40px 0 rgba(0,0,0,0.19);
+
+
+}
+
+#inlogBlok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+input {
+    width: 100%;
+}
+
+.warning {
+    color: red;
+    font-size: 13px;
+    /*dit zorgt ervoor dat als er content in de p tag gezet wordt, de rest van de elementen niet verspringt*/
+    min-height: 18px;
+
+
+}
+#registerButton{
+    background-color: rgba(62, 65, 138, 0.91);
+    color:#EF476F;
+    border-radius: 4px;
+    border: none;
+    padding: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#registerButton:hover{
+    cursor: pointer;
+    background-color: rgba(64, 67, 169, 0.91);
+}
